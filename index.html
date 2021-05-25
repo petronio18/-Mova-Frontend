@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APi Países</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/custom-select.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <img src="Logo" alt="">
+            <a href="index.html"><button  class="Voltar">   Voltar           
+            </button>
+        </a>
+        </div>
+    </nav>
+
+    <header class="container filter-content my-2">
+        <form id="formulario">
+        </form>
+        <div class="custom-select" style="width:200px;">
+            <select>
+                <option value="">Filtrar por opçao</option>
+                <option value="Regiao">Regiao</option>
+                <option value="capital">Capital</option>
+                <option value="Lingua">ligua</option>
+                <option value="Europe">País</option>
+                <option value="Cod">Codigo De ligação</option>
+            </select>
+        </div>
+        <div class="custom-select" style="width:200px;">
+            <select>
+                <option value="">Filtrar por Región</option>
+                <option value="">Todos</option>
+                <option value="Africa">África</option>
+                <option value="Americas">America</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europa</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+        </div>
+    </header>
+
+    <main class="container grid" id="banderas">
+    </main>
+
+
+    <script src="js/app.js"></script>
+    <script src="js/custom-select.js"></script>
+    <script src="js/formulario.js"></script>
+</body>
+</html>
